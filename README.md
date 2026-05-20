@@ -43,3 +43,4 @@ O ElosIA adapta a tecnologia à realidade socioeconômica dos nossos alunos e re
 * Ícaro Rafael Strieder Pulgas - Desenvolvimento da Página Local com VLibras
 * Pedro Felipe Feitosa Floresta - Identidade Visual, Design dos Slides & Demo
 * Mikaela Jacobina Neres - Documentação do Repositório & Repositório GitHub
+* k
