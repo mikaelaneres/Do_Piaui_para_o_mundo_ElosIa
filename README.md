@@ -1,45 +1,34 @@
-# ElosIA — Inteligência Artificial e Acessibilidade na Comunicação da Nossa Escola
+Hackathon Do Piauí para o Mundo 2026 — CETI Dr Dionísio Rodrigues Nogueira
 
-> **Inclusão sociodigital e IA integrando a nossa comunidade escolar, aproximando famílias com baixa escolaridade ou deficiência auditiva.**
+## O que o ElosIA faz
+- Responde dúvidas das famílias pelo WhatsApp, 24 horas
+- Envia respostas em áudio para quem tem dificuldade de leitura
+- Suporte em Libras pelo VLibras
+- Funciona em celulares simples com internet básica
 
-O **ElosIA** é um assistente virtual focado em acessibilidade local, desenvolvido sob medida para a realidade e os desafios da nossa escola. Operando de forma direta no WhatsApp, o sistema utiliza a API da **OpenAI** para processar as mensagens das famílias, simplificar a linguagem pedagógica e responder de forma multimodal: através de texto curto, áudio claro e suporte em Libras.
+## Tecnologias usadas
+- Uazapi — conexão com WhatsApp
+- n8n — automação das conversas
+- VLibras — acessibilidade em Libras
+- Google Sheets — banco de dados
+- Hostinger — hospedagem
 
----
+## Como testar
+1. Baixe o arquivo `fluxo-n8n.json`
+2. Importe no n8n (File > Import)
+3. Configure o Uazapi com seu número
+4. Mande uma mensagem para o número configurado
 
-## O Nosso Cenário e o Problema
-Convivendo diariamente na nossa escola, identificamos que os canais tradicionais de comunicação (avisos em murais, bilhetes impressos ou editais) geravam exclusão. Na nossa realidade, enfrentamos três grandes barreiras:
-1. **Dificuldades de leitura e baixa escolaridade:** Muitos responsáveis não compreendem circulares com termos pedagógicos complexos.
-2. **Deficiência auditiva:** Responsáveis surdos ficam isolados das decisões e eventos da escola.
-3. **Sobrecarga local:** A secretaria da nossa escola acumula funções, gerando filas e atrasos para responder dúvidas repetitivas.
+## Validação
+- 59 responsáveis entrevistados
+- 91,4% preferem WhatsApp como canal com a escola
+- 92,9% usariam o sistema
 
-*Dado de Validação Interna:* Em pesquisa realizada com a nossa comunidade escolar, **91,4%** das famílias declararam preferência absoluta pelo uso do WhatsApp para tratar de assuntos acadêmicos.
+## Equipe
+- Ícaro Rafael Strieder Pugas
+- Karine Neres De Freitas
+- Mikaela Jacobina Neres
+- Pedro Felipe Feitosa Floresta
+- Pedro Ivo Assis Bomfim
 
----
-
-## Como Funciona o MVP (O Nosso Fluxo)
-O ElosIA adapta a tecnologia à realidade socioeconômica dos nossos alunos e responsáveis, exigindo apenas um celular comum com internet limitada.
-
-- [x] **Processamento com OpenAI:** A IA da OpenAI interpreta as dúvidas enviadas por texto ou transcrição de áudio das famílias e busca a resposta exata na base de dados interna da nossa escola.
-- [x] **Linguagem Simplificada:** A OpenAI garante que a resposta gerada seja curta, direta e livre de termos técnicos ou burocráticos.
-- [x] **Áudio Automático Simultâneo:** O sistema envia a resposta em texto e um áudio correspondente (essencial para pais analfabetos ou com baixa visão da nossa comunidade).
-- [x] **Acessibilidade em Libras:** Envio de um link dedicado para a nossa página web leve integrada ao widget do **VLibras**, traduzindo o aviso escolar para a Língua Brasileira de Sinais.
-- [x] **Agendamento e Menus:** Fluxos diretos para marcação de reuniões com a coordenação pedagógica da nossa escola.
-
----
-
-## Stack Tecnológica
-* **Inteligência Artificial (LLM):** OpenAI API (GPT-4o mini)
-* **Orquestração e Integração:** n8n / Typebot
-* **Canal:** API do WhatsApp (Evolution API / Baileys)
-* **Acessibilidade:** Widget VLibras (Governo Federal)
-* **Hospedagem:** Hostinger
-
----
-
-## Nossa Equipe
-* Seu Nome - Mentor do Projeto & Estratégia de MVP
-* Pedro Ivo Assis Bomfim - MVP & Automação (n8n + WhatsApp)
-* Karine Neres De Freitas - Integração da API da OpenAI & Engenharia de Prompt
-* Ícaro Rafael Strieder Pulgas - Desenvolvimento da Página Local com VLibras
-* Pedro Felipe Feitosa Floresta - Identidade Visual, Design dos Slides & Demo
-* Mikaela Jacobina Neres - Documentação do Repositório & Repositório GitHub
+Professor Orientador: Ricardo Lacerda de Almeida
