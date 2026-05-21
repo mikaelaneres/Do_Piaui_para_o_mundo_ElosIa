@@ -20,7 +20,7 @@ Hackathon Do Piauí para o Mundo 2026 — CETI Dr Dionísio Rodrigues Nogueira
 4. Mande uma mensagem para o número configurado
 
 ## Validação
-- 59 responsáveis entrevistados
+- 50 responsáveis entrevistados
 - 91,4% preferem WhatsApp como canal com a escola
 - 92,9% usariam o sistema
 
